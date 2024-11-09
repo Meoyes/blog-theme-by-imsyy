@@ -14,16 +14,16 @@ export const themeConfig = {
     lang: "zh-CN",
     // 作者
     author: {
-      name: "Admin",
+      name: "s80808080",
       cover: "/images/logo/logo.webp",
-      email: "114514@gmail.com",
+      email: "3592744660@qq.com",
       link: "https://www.imsyy.top",
     },
   },
   // 备案信息
   icp: "萌ICP备114514号",
   // 建站日期
-  since: "2020-07-28",
+  since: "2024-11-03",
   // 每页文章数据
   postSize: 8,
   // inject
@@ -124,13 +124,6 @@ export const themeConfig = {
         { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
         { text: "我的项目", link: "/pages/project", icon: "code" },
         { text: "效率工具", link: "/pages/tools", icon: "tools" },
-      ],
-    },
-    {
-      text: "友链",
-      items: [
-        { text: "友链鱼塘", link: "/pages/friends", icon: "fish" },
-        { text: "友情链接", link: "/pages/link", icon: "people" },
       ],
     },
     {
