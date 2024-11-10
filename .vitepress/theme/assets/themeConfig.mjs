@@ -3,25 +3,25 @@ export const themeConfig = {
   // 站点信息
   siteMeta: {
     // 站点标题
-    title: "Curve",
+    title: "Meoyes 的博客",
     // 站点描述
-    description: "Hello World",
+    description: "这是属于我的一方天地",
     // 站点logo
     logo: "/images/logo/logo.webp",
     // 站点地址
-    site: "https://blog.imsyy.top",
+    site: "https://blog.meoyes.top",
     // 语言
     lang: "zh-CN",
     // 作者
     author: {
-      name: "s80808080",
+      name: "Meoyes",
       cover: "/images/logo/logo.webp",
       email: "3592744660@qq.com",
       link: "https://www.imsyy.top",
     },
   },
   // 备案信息
-  icp: "萌ICP备114514号",
+  icp: "",
   // 建站日期
   since: "2024-11-03",
   // 每页文章数据
@@ -121,15 +121,14 @@ export const themeConfig = {
     {
       text: "专栏",
       items: [
-        { text: "技术分享", link: "/pages/categories/技术分享", icon: "technical" },
-        { text: "我的项目", link: "/pages/project", icon: "code" },
+        { text: "分享", link: "/pages/categories/技术分享", icon: "technical" },
         { text: "效率工具", link: "/pages/tools", icon: "tools" },
       ],
     },
     {
       text: "我的",
       items: [
-        { text: "畅所欲言", link: "/pages/message", icon: "chat" },
+        { text: "聊天区", link: "/pages/message", icon: "chat" },
         { text: "致谢名单", link: "/pages/thanks", icon: "reward" },
         { text: "关于本站", link: "/pages/about", icon: "contacts" },
       ],
@@ -138,32 +137,12 @@ export const themeConfig = {
   // 导航栏菜单 - 左侧
   navMore: [
     {
-      name: "博客",
+      name: "服务",
       list: [
         {
           icon: "/images/logo/logo.webp",
           name: "主站",
           url: "/",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "博客镜像站",
-          url: "https://blog-backup.imsyy.top/",
-        },
-      ],
-    },
-    {
-      name: "服务",
-      list: [
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "起始页",
-          url: "https://nav.imsyy.top/",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "今日热榜",
-          url: "https://hot.imsyy.top/",
         },
         {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
@@ -173,38 +152,14 @@ export const themeConfig = {
       ],
     },
     {
-      name: "项目",
+      name: "推荐",
       list: [
         {
-          icon: "/images/logo/logo.webp",
-          name: "Curve",
-          url: "https://github.com/imsyy/vitepress-theme-curve",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/07/66124f5fc63c8.png",
-          name: "SPlayer",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/6613465358077.png",
-          name: "Snavigation",
-          url: "https://github.com/imsyy/SPlayer",
-        },
-        {
-          icon: "/images/logo/logo.webp",
-          name: "Home",
-          url: "https://github.com/imsyy/home",
-        },
-        {
           icon: "https://pic.efefee.cn/uploads/2024/04/08/661346d418ad7.png",
-          name: "DailyHotApi",
-          url: "https://github.com/imsyy/DailyHotApi",
+          name: "今日热榜 by imsyy",
+          url: "https://hot.imsyy.top/",
         },
-        {
-          icon: "https://pic.efefee.cn/uploads/2024/04/08/66134722586fa.png",
-          name: "site-status",
-          url: "https://github.com/imsyy/site-status",
-        },
+        
       ],
     },
   ],
@@ -214,15 +169,11 @@ export const themeConfig = {
     social: [
       {
         icon: "email",
-        link: "mailto:one@imsyy.top",
+        link: "3592744660@qq.com",
       },
       {
         icon: "github",
-        link: "https://www.github.com/imsyy/",
-      },
-      {
-        icon: "telegram",
-        link: "https://t.me/bottom_user",
+        link: "https://www.github.com/Meoyes/",
       },
       {
         icon: "bilibili",
@@ -231,10 +182,6 @@ export const themeConfig = {
       {
         icon: "qq",
         link: "https://res.abeim.cn/api/qq/?qq=1539250352",
-      },
-      {
-        icon: "twitter-x",
-        link: "https://twitter.com/iimmsyy",
       },
     ],
     // sitemap
@@ -246,15 +193,6 @@ export const themeConfig = {
           { text: "全部分类", link: "/pages/categories" },
           { text: "全部标签", link: "/pages/tags" },
           { text: "文章归档", link: "/pages/archives", newTab: true },
-        ],
-      },
-      {
-        text: "项目",
-        items: [
-          { text: "Home", link: "https://github.com/imsyy/home/", newTab: true },
-          { text: "SPlayer", link: "https://github.com/imsyy/SPlayer/", newTab: true },
-          { text: "DailyHotApi", link: "https://github.com/imsyy/DailyHotApi/", newTab: true },
-          { text: "Snavigation", link: "https://github.com/imsyy/Snavigation/", newTab: true },
         ],
       },
       {
@@ -291,15 +229,15 @@ export const themeConfig = {
   },
   // 评论
   comment: {
-    enable: false,
+    enable: true,
     // 评论系统选择
     // artalk / twikoo
     type: "artalk",
     // artalk
     // https://artalk.js.org/
     artalk: {
-      site: "",
-      server: "",
+      site: "Meoyes 的博客",
+      server: "https://blog.meooyes.top:8080",
     },
     // twikoo
     // https://twikoo.js.org/
@@ -317,7 +255,7 @@ export const themeConfig = {
     // 站点简介
     hello: {
       enable: true,
-      text: "这里有关于<strong>开发</strong>相关的问题和看法，也会有一些<strong>奇技淫巧</strong>的分享，其中大部分内容会侧重于<strong>前端开发</strong>。希望你可以在这里找到对你有用的知识和教程。",
+      text: "这里有我的<strong>心得体会</strong>，也会有一些的教程分享。希望你可以在这里找到对你有用的知识和教程。",
     },
     // 目录
     toc: {
