@@ -237,7 +237,7 @@ export const themeConfig = {
     // https://artalk.js.org/
     artalk: {
       site: "Meoyes 的博客",
-      server: "https://blog.meooyes.top:8080",
+      server: "0.0.0.0:9877",
     },
     // twikoo
     // https://twikoo.js.org/
@@ -309,14 +309,6 @@ export const themeConfig = {
     enable: false,
     appId: "",
     apiKey: "",
-  },
-  // 打赏
-  rewardData: {
-    enable: true,
-    // 微信二维码
-    wechat: "https://pic.efefee.cn/uploads/2024/04/07/66121049d1e80.webp",
-    // 支付宝二维码
-    alipay: "https://pic.efefee.cn/uploads/2024/04/07/661206631d3b5.webp",
   },
   // 图片灯箱
   fancybox: {
